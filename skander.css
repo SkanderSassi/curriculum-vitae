@@ -62,14 +62,14 @@ h1 {
 
 .cv-experience-location {
     font-size: 13pt;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .cv-experience-role {
     color: #222222;
     font-size: 12pt;
     margin-left: 5px;
-    font-weight: 600;
+    font-weight: 500;
     opacity: 0.9;
 }
 
@@ -155,7 +155,7 @@ h1 {
 
 .contact {
     /* font-family: 'Work Sans'; */
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contact-underlined-item {
