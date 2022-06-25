@@ -30,7 +30,7 @@ h1 {
     /* letter-spacing: 0.5px; */
     /* font-family: 'Times New Roman'; */
     line-height: 1.6;
-    font-size: 12pt;
+    font-size: 11pt;
     padding: 20px 40px 40px 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -47,7 +47,7 @@ h1 {
 .cv-section-title {
     /* letter-spacing: 1px; */
     font-weight: 600;
-    margin: 10px 0 5px 0 !important;
+    margin: 5px 0 5px 0 !important;
     font-size: 14pt;
     color: #016EF1;
     text-transform: capitalize;
@@ -73,6 +73,10 @@ h1 {
     opacity: 0.9;
 }
 
+#first-title{
+    margin: 10px 0 5px 0 !important;
+}
+
 .cv-experience-detail {
     font-size: 12pt;
 }
@@ -80,7 +84,7 @@ h1 {
 .cv-list-contribution {
     padding: 0;
     list-style-type: none;
-    margin: 10px 0 10px 5px;
+    margin: 8px 0 8px 5px;
 
 }
 
@@ -149,8 +153,10 @@ h1 {
     font-size: 12pt;
 }
 
+
+
 #pprojects {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .contact {
@@ -166,8 +172,8 @@ h1 {
 
 .contact-underline {
     margin: -2px;
-    background-color: dodgerblue;
+    background-color: black;
     width: 100%;
-    height: 0.4px;
+    height: 0.1px;
     color: #016EF1;
 }
