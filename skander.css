@@ -17,19 +17,21 @@ body{
     background-color: #fff;
     margin:0;
 }   
-h1 {
-    margin: 10px 0 10px 0;
+.cv-name{
+    margin: 5px 0 5px -2px!important;
 }
+
 .bullet-line{
     margin-left:18px ;
 }
+
 .cv-container {
     /* font-family: 'Montserrat',
         'Noto Sans SC'; */
     font-family: 'Work Sans';
     /* letter-spacing: 0.5px; */
     /* font-family: 'Times New Roman'; */
-    line-height: 1.6;
+    line-height: 1.55;
     font-size: 11pt;
     padding: 20px 40px 40px 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -39,10 +41,39 @@ h1 {
     flex-direction: column;
 
 }
-.cv-title {
-    color: #222222;
+.cv-header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
 }
-.cv-description {}
+.cv-picture{
+    /* margin-left: 50px; */
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+.cv-title {
+    display: flex;
+    flex-direction: row;
+    gap : 10px;
+    color: #222222;
+    margin: 0;
+}
+.cv-separator{
+    margin: 2px;
+    color: gray;
+    opacity: .2;
+}
+
+.cv-name{
+    /* font-size: 14pt !important; */
+}
+.cv-surname{
+    /* font-size: 14pt !important; */
+}
+.cv-description {margin: 0;}
 
 .cv-section-title {
     /* letter-spacing: 1px; */
@@ -147,9 +178,14 @@ h1 {
     display:flex;
     justify-content: space-between;
 }
+.contact-icon{
+    color: #016EF1;
+    font-size: 12pt;
+    margin-right: 0.2rem;
+}
 .contact-type {
     display: flex;
-    margin-right: 10px;
+    align-items: center;
     font-size: 12pt;
 }
 
@@ -167,6 +203,7 @@ h1 {
 .contact-underlined-item {
     text-decoration: none;
     color: #222222;
+    font-size: 11pt;
 
 }
 
